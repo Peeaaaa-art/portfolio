@@ -76,7 +76,7 @@
 ■ 機能の実装方針予定
 
 - OPENBD、国会図書、Google Books、楽天APIを実装し、ISBNコードから書籍情報を高確率で取得（和書・洋書）
-- WebRTC APIでカメラからバーコードを読み取り、ISBNを抽出する機能
+- WebRTC APIでカメラからバーコードを読み取り、QuaggaJSでISBNを抽出する機能
 - 書籍のタイトル・著者・読書メモの内容・タグなどからマルチ検索・オートコンプリートできる
 - CarrierWaveとMiniMagickによる画像加工機能
 - TipTapを使用したリッチテキスト編集機能
