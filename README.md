@@ -18,13 +18,13 @@
 | オートコンプリートで検索体験をスムーズに | 無限スクロールで快適な本棚体験 |
 |------------------|---------------------|
 | <p align="center"><img src="https://github.com/user-attachments/assets/fa07ebc9-84be-4a0d-8613-1318ae7e57be" width="250" alt="オートコンプリート"></p> | <p align="center"><img src="https://github.com/user-attachments/assets/c08fc27c-0d02-4553-b4db-b8fe40b75b3e" width="250" alt="無限スクロール"></p> |
-| <p align="center">タイトルや著者名の一部を入力すると候補が表示。<br>タイポや曖昧な記憶でも探しやすく。</p> | <p align="center">Turbo + Stimulus を用いた軽量な実装。<br>表示冊数に応じてチャンク単位で読み込み</p> |
+| <p align="center">タイトルや著者名の一部を入力すると候補が表示。タイポや曖昧な記憶でも探しやすく。</p> | <p align="center">Turbo + Stimulus を用いた軽量な実装。表示冊数に応じてチャンク単位で読み込み</p> |
 
 
 | バーコードスキャンで簡単に書籍登録 | キーワード検索 |
 |------------------|---------------------|
 | <p align="center"><img src="https://github.com/user-attachments/assets/f9d3e7f7-e6e6-49ed-81a5-be2186f1ae1c" width="250" alt="オートコンプリート"></p> | <p align="center"><img src="https://github.com/user-attachments/assets/56efe725-fb4a-49a2-91d4-3e35a34cc117" width="250" alt="無限スクロール"></p> |
-| <p align="center">ZXingを用いたクライアントサイドのバーコードスキャン機能。<br>取得したISBNを非同期で送信し、複数のAPIから書誌情報を統合取得します。</p> | <p align="center">キーワード入力をもとに、楽天・Google booksを切り替えて検索可能。</p> |
+| <p align="center">ZXingを用いたクライアントサイドのバーコードスキャン機能。取得したISBNを非同期で送信し、複数のAPIから書誌情報を統合取得します。</p> | <p align="center">キーワード入力をもとに、楽天・Google booksを切り替えて検索可能。</p> |
 
 ■サービス概要
 
