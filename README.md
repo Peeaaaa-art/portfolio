@@ -71,7 +71,7 @@
 | データベース   | PostgreSQL（Neon） / pg_search                                                                               |
 | 認証           | Devise（メール・LINEログイン対応)                    |
 | 環境構築       | Docker / dotenv-rails / fly.toml / Procfile.dev                                                              |
-| CI/CD          | GitHub Actions（導入予定）                                                                                   |
+| CI/CD          | GitHub ActionsでPR時にRuboCop・Brakeman・RSpecを実行、mainマージ時にFly.ioへ自動デプロイ。                        |
 | インフラ       | Fly.io、Amazon S3 + CloudFront（画像配信）、Namecheap（独自ドメイン）         |
 | 画像処理       | Active Storage / Amazon S3 / CDN署名付きURL配信                                                              |
 | メモエディタ   | TipTap（Reactベース WYSIWYGエディタ）                                                                        |
