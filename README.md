@@ -62,7 +62,23 @@
 - ISBNコードによる簡単な書籍登録
 - メモや書籍にカスタムタグを付けられるようにし、整理と検索を容易にします
 
-■ 機能候補
+## 🛠 使用技術（Tech Stack）
+
+| カテゴリ       | 技術構成                                                                                                      |
+|----------------|---------------------------------------------------------------------------------------------------------------|
+| フロントエンド | Stimulus / Turbo / React（TipTap専用） / ESBuild / JavaScript                                                |
+| バックエンド   | Ruby 3.4.3 / Ruby on Rails 8.0.2                                                                              |
+| データベース   | PostgreSQL（Neon） / pg_search                                                                               |
+| 認証           | Devise（メール・LINEログイン対応)                    |
+| 環境構築       | Docker / dotenv-rails / fly.toml / Procfile.dev                                                              |
+| CI/CD          | GitHub Actions（導入予定）                                                                                   |
+| インフラ       | Fly.io、Amazon S3 + CloudFront（画像配信）、Namecheap（独自ドメイン）         |
+| 画像処理       | Active Storage / Amazon S3 / CDN署名付きURL配信                                                              |
+| メモエディタ   | TipTap（Reactベース WYSIWYGエディタ）                                                                        |
+| 通知機能       | LINE Messaging API（定期メモ通知）、ActionMailer（メール通知）                                   |
+| 支援機能       | Stripe（寄付・マンスリーサポート）                                                                           |
+| 検索・UX       | 無限スクロール（Turbo + Stimulus）、オートコンプリート（書籍タイトル・著者）、フィルター・ソート機能          |
+| その他         | Tailwind CSS（部分的UI） / Kaminari / Pagy / rubocop / letter_opener_web                                     |
 
 ### MVPリリースまで
 
