@@ -13,8 +13,6 @@
   </tr>
 </table>
 
-<img src="https://assets.bokrium.com/monkey.png" alt="サンプル画像" width="200" />
-
 
 
 | オートコンプリートで検索体験をスムーズに | 無限スクロールで快適な本棚体験 |
@@ -104,3 +102,7 @@
 - CarrierWaveとMiniMagickによる画像加工機能
 - TipTapを使用したリッチテキスト編集機能
 - LINE Messaging API使用した「今日のおすすめメモ」をプッシュ通知
+
+# ER図
+
+<img src="https://assets.bokrium.com/bokrium_erd.png" alt="ER図" width="100%" />
