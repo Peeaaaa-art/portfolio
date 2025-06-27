@@ -1,3 +1,14 @@
+# Bokrium
+
+![Image](https://github.com/user-attachments/assets/9e836e20-4cea-44eb-bcbe-349ff85d751e)
+<img src="https://assets.bokrium.com/monkey.png" alt="サンプル画像" width="200" />
+
+
+
+| オートコンプリートで検索体験をスムーズに | 無限スクロールで快適な本棚体験 |
+|------------------|---------------------|
+| <p align="center"><img src="https://github.com/user-attachments/assets/093fca08-b120-4762-8f2a-a7f75de558d2" width="250" alt="オートコンプリート"></p> | <p align="center"><img src="https://github.com/user-attachments/assets/c08fc27c-0d02-4553-b4db-b8fe40b75b3e" width="250" alt="無限スクロール"></p> |
+| <p align="center">タイトルや著者名の一部を入力すると候補が表示。<br>タイポや曖昧な記憶でも探しやすく。</p> | <p align="center">Turbo + Stimulus を用いた軽量な実装。<br>表示冊数に応じてチャンク単位で読み込み</p> |
 
 ■サービス概要
 
