@@ -46,32 +46,10 @@ ISBNを読み取るだけで、書籍情報を自分の本棚に追加できま�
 
 
 
-| 📝 読書メモ・画像を一元管理  |
+| 📝 読書メモ・画像を一元管理 |
 |-------------------------|
-| <p align="center">[<img src="https://i.gyazo.com/33e39e655b45da69216e4b4b086500b8.gif" alt="本ごとのまとめ表示">](https://gyazo.com/33e39e655b45da69216e4b4b086500b8)</p>|
-| 『名前』『メールアドレス』『パスワード』『確認用パスワード』を入力してユーザー登録を行います。ユーザー登録後は、自動的にログイン処理が行われ、そのまま直ぐにサービスを利用できます。<br>また、Googleアカウントを用いてGoogleログインを行うことも可能です。 |
-
-<table width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://gyazo.com/fb85667d739a8c62f3abab2a9703d247">
-        <img src="https://i.gyazo.com/fb85667d739a8c62f3abab2a9703d247.png" alt="本棚一覧画像" width="100%">
-      </a>
-      <div>📕📗📘📙📒 5つの本棚ビュー</div>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://gyazo.com/262949cb147fe5434171f211b7c5864d">
-        <img src="https://i.gyazo.com/262949cb147fe5434171f211b7c5864d.gif" alt="本棚レイアウト切り替えGIF" width="100%">
-      </a>
-      <div>📚 レイアウト切り替えデモ</div>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      書籍ごとに読書メモ・タグ・画像をまとめて保存。5つの本棚レイアウトを自由に切り替えて、見やすく振り返りやすい読書体験を。
-    </td>
-  </tr>
-</table>
+| <p align="center">[<img src="https://i.gyazo.com/fb85667d739a8c62f3abab2a9703d247.png" alt="本棚一覧画像" width="100%">](https://gyazo.com/262949cb147fe5434171f211b7c5864d)</p> |
+| 書籍ごとに読書メモ・タグ・画像をまとめて保存。5つの本棚レイアウトを自由に切り替えて、見やすく振り返りやすい読書体験を提供します。<br><br>▶️ [動画で見てみる（Gyazo）](https://gyazo.com/262949cb147fe5434171f211b7c5864d) |
 
 ### 🔁 ランダム表示で学びを再発見  
 過去の読書メモをランダムに表示。忘れかけていた知識を自然と思い出せます。
