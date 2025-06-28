@@ -45,8 +45,16 @@ ISBNを読み取るだけで、書籍情報を自分の本棚に追加できま�
 | <p align="center">ZXingを用いたクライアントサイドのバーコードスキャン機能。取得したISBNを非同期で送信し、複数のAPIから書誌情報を統合取得します。</p> | <p align="center">タイトル・著者をもとに、楽天・Google booksを切り替えて検索可能。ISBNでの検索も可能。</p> |
 
 ### 📝 読書メモ・画像を一元管理  
-メモ・タグ・画像を本ごとにまとめて保存し、あとから簡単に振り返ることができます。
-[![Image from Gyazo](https://i.gyazo.com/33e39e655b45da69216e4b4b086500b8.gif)](https://gyazo.com/33e39e655b45da69216e4b4b086500b8)
+<table width="100%">
+  <tr>
+    <td>
+      <p><strong>メモ・タグ・画像を本ごとにまとめて保存し、あとから簡単に振り返ることができます。</strong></p>
+      <a href="https://gyazo.com/33e39e655b45da69216e4b4b086500b8">
+        <img src="https://i.gyazo.com/33e39e655b45da69216e4b4b086500b8.gif" alt="本ごとのまとめ表示" width="100%" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 ### 🔁 ランダム表示で学びを再発見  
 過去の読書メモをランダムに表示。忘れかけていた知識を自然と思い出せます。
