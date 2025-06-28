@@ -15,11 +15,6 @@
 
 
 
-| オートコンプリートで検索体験をスムーズに | 無限スクロールで快適な本棚体験 |
-|------------------|---------------------|
-| <p align="center"><a href="https://gyazo.com/087b7bf154e1baab02d44c3a45e787be"><img src="https://i.gyazo.com/087b7bf154e1baab02d44c3a45e787be.gif" width="250" alt="オートコンプリートGIF"></a></p> | <p align="center"><img src="https://github.com/user-attachments/assets/c08fc27c-0d02-4553-b4db-b8fe40b75b3e" width="250" alt="無限スクロール"></p> |
-| <p align="center">タイトルや著者名の一部を入力すると候補が表示。タイポや曖昧な記憶でも探しやすく。</p> | <p align="center">Turbo + Stimulus を用いた軽量な実装。表示冊数に応じてチャンク単位で読み込み</p> |
-
 
 
 # 元書店員が開発した、知識を生活に活かす読書管理アプリ
@@ -44,18 +39,29 @@ ISBNを読み取るだけで、書籍情報を自分の本棚に追加できま�
 | <p align="center"><a href="https://gyazo.com/88615713f29c4da2bd917487a84d9f53"><img src="https://i.gyazo.com/88615713f29c4da2bd917487a84d9f53.gif" width="250" alt="バーコードスキャンGIF"></a></p> | <p align="center"><img src="https://github.com/user-attachments/assets/56efe725-fb4a-49a2-91d4-3e35a34cc117" width="250" alt="キーワード検索"></p> |
 | <p align="center">ZXingを用いたクライアントサイドのバーコードスキャン機能。取得したISBNを非同期で送信し、複数のAPIから書誌情報を統合取得します。</p> | <p align="center">タイトル・著者をもとに、楽天・Google Booksを切り替えて検索可能。ISBNでの検索も可能。</p> |
 
-
-
-| 📝 読書メモ・画像を一元管理 |
+| 📝 読書メモ・画像を一元管理  |
 |-------------------------|
-| <p align="center">[<img src="https://i.gyazo.com/fb85667d739a8c62f3abab2a9703d247.png" alt="本棚一覧画像" width="100%">](https://gyazo.com/262949cb147fe5434171f211b7c5864d)</p> |
-| 書籍ごとに読書メモ・タグ・画像をまとめて保存。5つの本棚レイアウトを自由に切り替えて、見やすく振り返りやすい読書体験を提供します。<br><br>▶️ [動画で見てみる（Gyazo）](https://gyazo.com/262949cb147fe5434171f211b7c5864d) |
+| <p align="center">[<img src="https://i.gyazo.com/33e39e655b45da69216e4b4b086500b8.gif" alt="本ごとのまとめ表示"  width="80%">](https://gyazo.com/33e39e655b45da69216e4b4b086500b8)<p>|
+| 『名前』『メールアドレス』『パスワード』『確認用パスワード』を入力してユーザー登録を行います。ユーザー登録後は、自動的にログイン処理が行われ、そのまま直ぐにサービスを利用できます。<br>また、Googleアカウントを用いてGoogleログインを行うことも可能です。 |
+
+| 📝 📕📗📘📙📒 5つの本棚ビュー |
+|-------------------------|
+| <p align="center">[<img src="https://i.gyazo.com/fb85667d739a8c62f3abab2a9703d247.png" alt="本棚一覧画像" width="80%">](https://gyazo.com/fb85667d739a8c62f3abab2a9703d247)</p> |
+| <p align="center">[<img src="https://i.gyazo.com/262949cb147fe5434171f211b7c5864d.gif" alt="本棚レイアウト切り替えGIF" width="80%">](https://gyazo.com/262949cb147fe5434171f211b7c5864d)</p> |
+| 書籍ごとに読書メモ・タグ・画像をまとめて保存。5つの本棚レイアウトを自由に切り替えて、見やすく振り返りやすい読書体験を提供します。 |
 
 ### 🔁 ランダム表示で学びを再発見  
 過去の読書メモをランダムに表示。忘れかけていた知識を自然と思い出せます。
 
 ### 🔒 公開・非公開の切り替え  
 メモは自分だけで管理することも、他のユーザーと共有することも可能です。
+
+
+
+| オートコンプリートで検索体験をスムーズに | 無限スクロールで快適な本棚体験 |
+|------------------|---------------------|
+| <p align="center"><a href="https://gyazo.com/087b7bf154e1baab02d44c3a45e787be"><img src="https://i.gyazo.com/087b7bf154e1baab02d44c3a45e787be.gif" width="250" alt="オートコンプリートGIF"></a></p> | <p align="center"><img src="https://github.com/user-attachments/assets/c08fc27c-0d02-4553-b4db-b8fe40b75b3e" width="250" alt="無限スクロール"></p> |
+| <p align="center">タイトルや著者名の一部を入力すると候補が表示。タイポや曖昧な記憶でも探しやすく。</p> | <p align="center">Turbo + Stimulus を用いた軽量な実装。表示冊数に応じてチャンク単位で読み込み</p> |
 
 ## 🛠 開発の背景
 
