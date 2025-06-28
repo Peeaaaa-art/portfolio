@@ -4,9 +4,6 @@
 
 [![Image from Gyazo](https://i.gyazo.com/339ded291d706d0b69c11956dbf3732c.png)](https://gyazo.com/339ded291d706d0b69c11956dbf3732c)
 
-
-
-
 # 元書店員が開発した読書管理アプリ
 
 本を「読むだけ」で終わらせず、  
@@ -21,7 +18,7 @@
 
 ## ✨ アプリ機能紹介
 
-<h3 align="center">📧 ユーザー登録</h3>
+<br><h3 align="center">📧 ユーザー登録</h3>
 
 |  メールログイン | LINEログイン |
 |:--:|:--:|
