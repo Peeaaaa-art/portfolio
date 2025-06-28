@@ -41,20 +41,19 @@
 ISBNを読み取るだけで、書籍情報を自分の本棚に追加できます。またキーワード検索にも対応しています。
 | バーコードスキャン | キーワード検索 |
 |------------------|---------------------|
-| <p align="center"><img src="https://github.com/user-attachments/assets/f9d3e7f7-e6e6-49ed-81a5-be2186f1ae1c" width="250" alt="オートコンプリート"></p> | <p align="center"><img src="https://github.com/user-attachments/assets/56efe725-fb4a-49a2-91d4-3e35a34cc117" width="250" alt="無限スクロール"></p> |
+| <p align="center"><img src="https://github.com/user-attachments/assets/f9d3e7f7-e6e6-49ed-81a5-be2186f1ae1c" width="250" alt="バーコードスキャン"></p> | <p align="center"><img src="https://github.com/user-attachments/assets/56efe725-fb4a-49a2-91d4-3e35a34cc117" width="250" alt="キーワード検索"></p> |
 | <p align="center">ZXingを用いたクライアントサイドのバーコードスキャン機能。取得したISBNを非同期で送信し、複数のAPIから書誌情報を統合取得します。</p> | <p align="center">タイトル・著者をもとに、楽天・Google booksを切り替えて検索可能。ISBNでの検索も可能。</p> |
 
 ### 📝 読書メモ・画像を一元管理  
-<table width="100%">
-  <tr>
-    <td>
-      <p><strong>メモ・タグ・画像を本ごとにまとめて保存し、あとから簡単に振り返ることができます。</strong></p>
-      <a href="https://gyazo.com/33e39e655b45da69216e4b4b086500b8">
-        <img src="https://i.gyazo.com/33e39e655b45da69216e4b4b086500b8.gif" alt="本ごとのまとめ表示" width="100%" />
-      </a>
-    </td>
-  </tr>
-</table>
+| [<img src="https://i.gyazo.com/aae1cfc3015d3347ce9ca9e7fa45c80c.gif" alt="本ごとのまとめ表示"  width="100%">](https://gyazo.com/aae1cfc3015d3347ce9ca9e7fa45c80c.gif) |  <img src="https://assets.bokrium.com/monkey.png" alt="monkey"> |
+|---|---|
+
+[![Image from Gyazo](https://i.gyazo.com/aae1cfc3015d3347ce9ca9e7fa45c80c.gif)](https://gyazo.com/aae1cfc3015d3347ce9ca9e7fa45c80c)
+
+| ユーザー登録 / ログイン |
+|-------------------------|
+| [<img src="https://i.gyazo.com/33e39e655b45da69216e4b4b086500b8.gif" alt="本ごとのまとめ表示"  width="100%">](https://gyazo.com/33e39e655b45da69216e4b4b086500b8)|
+| 『名前』『メールアドレス』『パスワード』『確認用パスワード』を入力してユーザー登録を行います。ユーザー登録後は、自動的にログイン処理が行われ、そのまま直ぐにサービスを利用できます。<br>また、Googleアカウントを用いてGoogleログインを行うことも可能です。 |
 
 ### 🔁 ランダム表示で学びを再発見  
 過去の読書メモをランダムに表示。忘れかけていた知識を自然と思い出せます。
