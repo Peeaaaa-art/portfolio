@@ -27,33 +27,30 @@
 |:--:|:--:|
 | [<img src="https://i.gyazo.com/5e18a488462bc89b0cd65dee2d628bcd.png" alt="アカウント登録画面" width="100%">](https://gyazo.com/5e18a488462bc89b0cd65dee2d628bcd) | [<img src="https://i.gyazo.com/e35992b842ae24c8149e96275682ff9b.png" alt="LINEログイン画面" width="95%">](https://gyazo.com/e35992b842ae24c8149e96275682ff9b) |
 
-アカウント登録には、Deviseによるメール認証を採用し、安全に本人確認を行えます。登録後のパスワード再設定も、メール送信によるリンク経由で安心して実施可能です。また、LINEログインにも対応しており、メールアドレスやパスワードの入力なしで、ワンタップで簡単に登録・ログインができます。
+アカウント登録にはDeviseによるメール認証を採用しており、安全性を確保しつつ、確認メールのリンクをクリックするだけで自動的にログインできます。登録後のパスワード再設定も、メール送信によるリンク経由で安心して実施可能です。また、LINEログインにも対応しており、メールアドレスやパスワードの入力なしで、ワンタップで簡単に登録・ログインができます。
 
-<br>
-<h3 align="center">🤳📚 書籍登録</h3>
+<br><h3 align="center">🤳📚 書籍登録</h3>
 
 | バーコードスキャン | キーワード検索 |
 |------------------|---------------------|
 | <p align="center"><a href="https://gyazo.com/88615713f29c4da2bd917487a84d9f53"><img src="https://i.gyazo.com/88615713f29c4da2bd917487a84d9f53.gif" width="250" alt="バーコードスキャンGIF"></a></p> | <p align="center"><img src="https://github.com/user-attachments/assets/56efe725-fb4a-49a2-91d4-3e35a34cc117" width="250" alt="キーワード検索"></p> |
 | <p align="center">ZXingを用いたクライアントサイドのバーコードスキャン機能。取得したISBNを非同期で送信し、複数のAPIから書誌情報を統合取得します。</p> | <p align="center">タイトル・著者をもとに、楽天・Google Booksを切り替えて検索可能。ISBNでの検索も可能。</p> |
 
-<br>
+<br><h3 align="center">📚👀 本棚</h3>
 
-| 📚👀 本棚 |
+| ビューと表示冊数を選べる本棚 |
 |-------------------------|
-| <p align="center">[<img src="https://i.gyazo.com/fb85667d739a8c62f3abab2a9703d247.png" alt="本棚一覧画像" width="80%">](https://gyazo.com/fb85667d739a8c62f3abab2a9703d247)</p> |
-| <p align="center">[<img src="https://i.gyazo.com/7a994cfc549125f3977c8f87e03daae5.png" alt="棚設定UI" width="80%">](https://gyazo.com/7a994cfc549125f3977c8f87e03daae5)</p> |
-| <p align="center">[<img src="https://i.gyazo.com/262949cb147fe5434171f211b7c5864d.gif" alt="本棚レイアウト切り替えGIF" width="80%">](https://gyazo.com/262949cb147fe5434171f211b7c5864d)</p> |
+| <p align="center">[<img src="https://i.gyazo.com/fb85667d739a8c62f3abab2a9703d247.png" alt="本棚一覧画像" width="100%">](https://gyazo.com/fb85667d739a8c62f3abab2a9703d247)</p> |
+| <p align="center">[<img src="https://i.gyazo.com/7a994cfc549125f3977c8f87e03daae5.png" alt="棚設定UI" width="100%">](https://gyazo.com/7a994cfc549125f3977c8f87e03daae5)</p> |
+| <p align="center">[<img src="https://i.gyazo.com/262949cb147fe5434171f211b7c5864d.gif" alt="本棚レイアウト切り替えGIF" width="100%">](https://gyazo.com/262949cb147fe5434171f211b7c5864d)</p> |
 | 書籍ごとに読書メモ・タグ・画像をまとめて保存。5つの本棚レイアウトを自由に切り替えて、見やすく振り返りやすい読書体験を提供します。 |
-### 🔁 ランダム表示で学びを再発見  
-過去の読書メモをランダムに表示。忘れかけていた知識を自然と思い出せます。
 
+<br><h3 align="center">📝 メモ機能</h3>
 
-| 📝 読書メモ・画像を一元管理  |
+| 📝 本ごとにメモ・画像・タグをまとめて管理 |
 |-------------------------|
-| <p align="center">[<img src="https://i.gyazo.com/33e39e655b45da69216e4b4b086500b8.gif" alt="本ごとのまとめ表示"  width="80%">](https://gyazo.com/33e39e655b45da69216e4b4b086500b8)<p>|
-| 『名前』『メールアドレス』『パスワード』『確認用パスワード』を入力してユーザー登録を行います。ユーザー登録後は、自動的にログイン処理が行われ、そのまま直ぐにサービスを利用できます。<br>また、Googleアカウントを用いてGoogleログインを行うことも可能です。 |
-
+| <p align="center">[<img src="https://i.gyazo.com/33e39e655b45da69216e4b4b086500b8.gif" alt="本ごとのまとめ表示" width="100%">](https://gyazo.com/33e39e655b45da69216e4b4b086500b8)</p> |
+| 読書メモには、Markdown対応のTipTapエディタを採用。見出しや箇条書きなどを使いながら、自由にリッチな記録ができます。画像はS3に保存され、スムーズに管理可能です。<br><br>さらに、タグ付けや書籍情報の編集、読書中・読みたい・読了といったステータスの設定にも対応。<br><br>通常表示では、左上に拡大・縮小ボタン、右上に「非公開・リンク限定・公開」から選べる公開設定メニューが表示されます。モーダル表示では、メモの文字数や作成日・更新日も確認できます。 |
 
 | 💌 ランダムメモをLINE・メールで通知 |
 |-------------------------|
