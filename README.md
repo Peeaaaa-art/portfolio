@@ -17,9 +17,8 @@
 
 | オートコンプリートで検索体験をスムーズに | 無限スクロールで快適な本棚体験 |
 |------------------|---------------------|
-| <p align="center"><img src="https://github.com/user-attachments/assets/fa07ebc9-84be-4a0d-8613-1318ae7e57be" width="250" alt="オートコンプリート"></p> | <p align="center"><img src="https://github.com/user-attachments/assets/c08fc27c-0d02-4553-b4db-b8fe40b75b3e" width="250" alt="無限スクロール"></p> |
+| <p align="center"><a href="https://gyazo.com/087b7bf154e1baab02d44c3a45e787be"><img src="https://i.gyazo.com/087b7bf154e1baab02d44c3a45e787be.gif" width="250" alt="オートコンプリートGIF"></a></p> | <p align="center"><img src="https://github.com/user-attachments/assets/c08fc27c-0d02-4553-b4db-b8fe40b75b3e" width="250" alt="無限スクロール"></p> |
 | <p align="center">タイトルや著者名の一部を入力すると候補が表示。タイポや曖昧な記憶でも探しやすく。</p> | <p align="center">Turbo + Stimulus を用いた軽量な実装。表示冊数に応じてチャンク単位で読み込み</p> |
-
 
 
 
@@ -37,23 +36,28 @@
 
 ## ✨ アプリの特徴
 
-### 📚 バーコードスキャンで簡単登録  
+### 🤳📚 バーコードスキャンで簡単登録  
 ISBNを読み取るだけで、書籍情報を自分の本棚に追加できます。またキーワード検索にも対応しています。
+
 | バーコードスキャン | キーワード検索 |
 |------------------|---------------------|
-| <p align="center"><img src="https://github.com/user-attachments/assets/f9d3e7f7-e6e6-49ed-81a5-be2186f1ae1c" width="250" alt="バーコードスキャン"></p> | <p align="center"><img src="https://github.com/user-attachments/assets/56efe725-fb4a-49a2-91d4-3e35a34cc117" width="250" alt="キーワード検索"></p> |
-| <p align="center">ZXingを用いたクライアントサイドのバーコードスキャン機能。取得したISBNを非同期で送信し、複数のAPIから書誌情報を統合取得します。</p> | <p align="center">タイトル・著者をもとに、楽天・Google booksを切り替えて検索可能。ISBNでの検索も可能。</p> |
+| <p align="center"><a href="https://gyazo.com/88615713f29c4da2bd917487a84d9f53"><img src="https://i.gyazo.com/88615713f29c4da2bd917487a84d9f53.gif" width="250" alt="バーコードスキャンGIF"></a></p> | <p align="center"><img src="https://github.com/user-attachments/assets/56efe725-fb4a-49a2-91d4-3e35a34cc117" width="250" alt="キーワード検索"></p> |
+| <p align="center">ZXingを用いたクライアントサイドのバーコードスキャン機能。取得したISBNを非同期で送信し、複数のAPIから書誌情報を統合取得します。</p> | <p align="center">タイトル・著者をもとに、楽天・Google Booksを切り替えて検索可能。ISBNでの検索も可能。</p> |
 
-### 📝 読書メモ・画像を一元管理  
-| [<img src="https://i.gyazo.com/aae1cfc3015d3347ce9ca9e7fa45c80c.gif" alt="本ごとのまとめ表示"  width="100%">](https://gyazo.com/aae1cfc3015d3347ce9ca9e7fa45c80c.gif) |  <img src="https://assets.bokrium.com/monkey.png" alt="monkey"> |
-|---|---|
 
-[![Image from Gyazo](https://i.gyazo.com/aae1cfc3015d3347ce9ca9e7fa45c80c.gif)](https://gyazo.com/aae1cfc3015d3347ce9ca9e7fa45c80c)
 
-| ユーザー登録 / ログイン |
+| 📝 読書メモ・画像を一元管理  |
 |-------------------------|
-| [<img src="https://i.gyazo.com/33e39e655b45da69216e4b4b086500b8.gif" alt="本ごとのまとめ表示"  width="100%">](https://gyazo.com/33e39e655b45da69216e4b4b086500b8)|
+| [<img src="https://i.gyazo.com/33e39e655b45da69216e4b4b086500b8.gif" alt="本ごとのまとめ表示"  width="88%">](https://gyazo.com/33e39e655b45da69216e4b4b086500b8)|
 | 『名前』『メールアドレス』『パスワード』『確認用パスワード』を入力してユーザー登録を行います。ユーザー登録後は、自動的にログイン処理が行われ、そのまま直ぐにサービスを利用できます。<br>また、Googleアカウントを用いてGoogleログインを行うことも可能です。 |
+
+|  📕📗📘📙📒 5つの本棚ビュー |
+|-------------------------|
+| [<img src="https://i.gyazo.com/262949cb147fe5434171f211b7c5864d.gif" alt="本棚レイアウト切り替えGIF" width="88%">](https://gyazo.com/262949cb147fe5434171f211b7c5864d) |
+| 書籍ごとに読書メモ・タグ・画像をまとめて保存でき、5つの本棚レイアウトを自由に切り替えて表示可能。読書スタイルに合わせて、見やすく振り返りやすい読書体験を提供します。 |
+
+
+[![Image from Gyazo](https://i.gyazo.com/262949cb147fe5434171f211b7c5864d.gif)](https://gyazo.com/262949cb147fe5434171f211b7c5864d)
 
 ### 🔁 ランダム表示で学びを再発見  
 過去の読書メモをランダムに表示。忘れかけていた知識を自然と思い出せます。
