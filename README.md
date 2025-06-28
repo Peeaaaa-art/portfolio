@@ -2,17 +2,7 @@
 
 🌐 **サービスURL:** [https://bokrium.com](https://bokrium.com)
 
-<table>
-  <tr>
-    <td width="65%">
-      <img src="https://github.com/user-attachments/assets/9e836e20-4cea-44eb-bcbe-349ff85d751e" alt="左画像" width="100%">
-    </td>
-    <td width="30%">
-      <img src="https://github.com/user-attachments/assets/51c9de56-0e39-4cb8-b490-816cd069af4d" alt="右画像" width="100%">
-    </td>
-  </tr>
-</table>
-
+[![Image from Gyazo](https://i.gyazo.com/339ded291d706d0b69c11956dbf3732c.png)](https://gyazo.com/339ded291d706d0b69c11956dbf3732c)
 
 
 
@@ -33,26 +23,23 @@
 
 <h3 align="center">📧 ユーザー登録</h3>
 
-|  アカウント登録・パスワード再設定 | LINEログイン |
+|  メールログイン | LINEログイン |
 |:--:|:--:|
 | [<img src="https://i.gyazo.com/5e18a488462bc89b0cd65dee2d628bcd.png" alt="アカウント登録画面" width="100%">](https://gyazo.com/5e18a488462bc89b0cd65dee2d628bcd) | [<img src="https://i.gyazo.com/e35992b842ae24c8149e96275682ff9b.png" alt="LINEログイン画面" width="95%">](https://gyazo.com/e35992b842ae24c8149e96275682ff9b) |
 
 アカウント登録には、Deviseによるメール認証を採用し、安全に本人確認を行えます。登録後のパスワード再設定も、メール送信によるリンク経由で安心して実施可能です。また、LINEログインにも対応しており、メールアドレスやパスワードの入力なしで、ワンタップで簡単に登録・ログインができます。
 
+<br>
 <h3 align="center">🤳📚 書籍登録</h3>
-
 
 | バーコードスキャン | キーワード検索 |
 |------------------|---------------------|
 | <p align="center"><a href="https://gyazo.com/88615713f29c4da2bd917487a84d9f53"><img src="https://i.gyazo.com/88615713f29c4da2bd917487a84d9f53.gif" width="250" alt="バーコードスキャンGIF"></a></p> | <p align="center"><img src="https://github.com/user-attachments/assets/56efe725-fb4a-49a2-91d4-3e35a34cc117" width="250" alt="キーワード検索"></p> |
 | <p align="center">ZXingを用いたクライアントサイドのバーコードスキャン機能。取得したISBNを非同期で送信し、複数のAPIから書誌情報を統合取得します。</p> | <p align="center">タイトル・著者をもとに、楽天・Google Booksを切り替えて検索可能。ISBNでの検索も可能。</p> |
 
-| 📝 読書メモ・画像を一元管理  |
-|-------------------------|
-| <p align="center">[<img src="https://i.gyazo.com/33e39e655b45da69216e4b4b086500b8.gif" alt="本ごとのまとめ表示"  width="80%">](https://gyazo.com/33e39e655b45da69216e4b4b086500b8)<p>|
-| 『名前』『メールアドレス』『パスワード』『確認用パスワード』を入力してユーザー登録を行います。ユーザー登録後は、自動的にログイン処理が行われ、そのまま直ぐにサービスを利用できます。<br>また、Googleアカウントを用いてGoogleログインを行うことも可能です。 |
+<br>
 
-| 📕📗📘📙📒 5つの本棚ビュー |
+| 📚👀 本棚 |
 |-------------------------|
 | <p align="center">[<img src="https://i.gyazo.com/fb85667d739a8c62f3abab2a9703d247.png" alt="本棚一覧画像" width="80%">](https://gyazo.com/fb85667d739a8c62f3abab2a9703d247)</p> |
 | <p align="center">[<img src="https://i.gyazo.com/7a994cfc549125f3977c8f87e03daae5.png" alt="棚設定UI" width="80%">](https://gyazo.com/7a994cfc549125f3977c8f87e03daae5)</p> |
@@ -61,10 +48,18 @@
 ### 🔁 ランダム表示で学びを再発見  
 過去の読書メモをランダムに表示。忘れかけていた知識を自然と思い出せます。
 
+
+| 📝 読書メモ・画像を一元管理  |
+|-------------------------|
+| <p align="center">[<img src="https://i.gyazo.com/33e39e655b45da69216e4b4b086500b8.gif" alt="本ごとのまとめ表示"  width="80%">](https://gyazo.com/33e39e655b45da69216e4b4b086500b8)<p>|
+| 『名前』『メールアドレス』『パスワード』『確認用パスワード』を入力してユーザー登録を行います。ユーザー登録後は、自動的にログイン処理が行われ、そのまま直ぐにサービスを利用できます。<br>また、Googleアカウントを用いてGoogleログインを行うことも可能です。 |
+
+
 | 💌 ランダムメモをLINE・メールで通知 |
 |-------------------------|
 | <p align="center">[<img src="https://i.gyazo.com/824716aad7a7d4a02f4e184eb7c3ee63.png" alt="メモ通知UIイメージ" width="100%">](https://gyazo.com/824716aad7a7d4a02f4e184eb7c3ee63)</p> |
 | 登録済みの読書メモの中から、毎朝ランダムに1件を選んでLINEまたはメールでお届けします。<br>「あの本、こんなこと書いてたな」と自然に思い出せる、ちょっと嬉しい仕組みです。 |
+
 
 ### 🔒 公開・非公開の切り替え  
 メモは自分だけで管理することも、他のユーザーと共有することも可能です。
