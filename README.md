@@ -94,11 +94,11 @@ Bokriumは、そのための場です。知識を、思い出しやすく、取�
 | フロントエンド | Stimulus / Turbo / React（TipTap専用） / ESBuild / JavaScript                                                |
 | バックエンド   | Ruby 3.4.3 / Ruby on Rails 8.0.2                                                                              |
 | データベース   | PostgreSQL（Neon） / pg_search                                                                               |
-| 認証           | Devise（メール・LINEログイン対応)                    |
-| 環境構築       | Docker / dotenv-rails / fly.toml / Procfile.dev                                                              |
+| 認証           | Devise（メールログイン）/ Omniauth（LINEログイン対応）                |
+| 環境構築       | Docker                                                              |
 | CI/CD          | GitHub ActionsでPR時にRuboCop・Brakeman・RSpecを実行、mainマージ時にFly.ioへ自動デプロイ。                        |
-| インフラ       | Fly.io、Amazon S3 + CloudFront（画像配信）、Namecheap（独自ドメイン）         |
-| 画像処理       | Active Storage / Amazon S3 / CDN署名付きURL配信                                                              |
+| インフラ       | Fly.io / Namecheap（独自ドメイン）/ Cloudflare（DNS管理・CDN）         |
+| 画像処理       | Active Storage / Amazon S3 + CloudFront（画像配信）                                                           |
 | メモエディタ   | TipTap（Reactベース WYSIWYGエディタ）                                                                        |
 | 通知機能       | LINE Messaging API（定期メモ通知）、ActionMailer（メール通知）                                   |
 | 支援機能       | Stripe（寄付・マンスリーサポート）                                                                           |
